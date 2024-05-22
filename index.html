@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-r">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FAVICON -->
+
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="assets/style.css">
+
+    <!-- LINK JS -->
+    <script src="global/script.js" defer></script>
+
+    <title>Alura-Geek</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class="header">
+        <img src="assets/img/logo.svg" alt="AluraGeek">
+        <p>AluraGeek</p>
+    </header>
+
+    <!-- MAIN-PRODUCTS -->
+    <main>
+        <section>
+            <h1 class="title-prodct">Meus Produtos:</h1>
+            <div data-product class="products-container">
+               
+            </div>
+
+
+
+        </section>
+
+        <!-- FORM-ADD -->
+        <form id="form-product" data-form>
+            <h2>ADICIONAR PRODUTO:</h2>
+            <input type="text" data-nome id="nome" placeholder="Nome" required>
+            <input type="text" data-preco id="valor" placeholder="Valor" required>
+            <input type="text" data-image id="img" placeholder="Imagem" required>
+
+            <button type="submit" id="button" >Guardar</button>
+            <button type="reset" id="button">Limpar</button>
+        </form>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="logo">
+            <img src="assets/img/logo.svg" alt="">
+        </div>
+        <h3>Alura Geek</h3>
+        <span>desenvolvido por José Carlos - Alura Latam- 2024</span>
+    </footer>
+    <script type="module" src="global/main.js"></script>
+</body>
+
+</html>

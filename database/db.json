@@ -1,0 +1,22 @@
+{
+  "products": [
+    {
+      "nome": "Stormtrooper",
+      "preco": "60,00",
+      "image": "./assets/img/img-1.svg",
+      "id": "1"
+    },
+    {
+      "nome": "Darth Vader",
+      "preco": "60,00",
+      "image": "assets/img/img-2.svg",
+      "id": "2"
+    },
+    {
+      "id": "0362",
+      "nome": "Homem-Aranha",
+      "preco": "60,00",
+      "image": "https://m.media-amazon.com/images/I/51T24hvqC5L._AC_.jpg"
+    }
+  ]
+}
