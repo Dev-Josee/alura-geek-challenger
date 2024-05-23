@@ -20,21 +20,21 @@ const creatProduct = (nome, preco, image) => {
     .catch((err) => console.log(err));
 }
 
+export async function apagarCard(id){
+    const conexao = await fetch(`http://localhost:3000/products/${id}`, {
+        method: 'DELETE'
+    });
 
-const deleteProduct = (id) => {
-    return fetch(`http://localhost:3000/products/${id}`,{
-        method: 'DELETE',
-        headers: {
-            "Content-Type": "application/json",
-        },
-        body:JSON.stringify({
-            id,
-        })
-    
-    })
+    return conexao;
 }
+
+ 
+
+
 
 export const servicesProduts = {
     listProduct,
     creatProduct,
+    apagarCard,
+    
 }
